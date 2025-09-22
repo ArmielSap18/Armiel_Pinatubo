@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home - Nath</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+
+    .page-hero {
+      background-image: url('HOME.jpg'); 
+      background-size: cover;
+      background-position: center;
+      color: white;
+      text-align: center;
+      padding: 150px 20px;
+    }
+
+    .page-title {
+      font-size: 3rem;
+      margin-bottom: 10px;
+    }
+
+    .subtitle {
+      font-size: 1.5rem;
+    }
+
+    nav a {
+      margin: 0 15px;
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    .container {
+      max-width: 1200px;
+      margin: 50px auto;
+      padding: 0 20px;
+      display: grid;
+      gap: 20px;
+    }
+
+    .intro, .interests {
+      display: grid;
+      gap: 20px;
+    }
+
+    .interests {
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    }
+
+    .box {
+      background-color: #f4f4f4;
+      padding: 20px;
+      border-radius: 10px;
+      text-align: center;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+
+    .pic-box img {
+      max-width: 100%;
+      border-radius: 10px;
+    }
+  </style>
+</head>
+<body>
+  <section class="page-hero">
+    <div class="top-border">
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="aboutme.html">About Me</a>
+        <a href="likes.html">Likes</a>
+        <a href="awards.html">Awards</a>
+        <a href="more.html">More</a>
+      </nav>
+    </div>
+    <h1 class="page-title">Welcome to My Homepage!</h1>
+    <p class="subtitle">Get to know me, my interests, and my journey</p>
+  </section>
+
+  <section class="container intro">
+    <div class="box">
+      <h2>Hello!</h2>
+      <p>My name is Nath. I’m a student at Philippine Science High School - Central Luzon Campus. I love learning, exploring new things, and sharing my passions!</p>
+    </div>
+    <div class="box pic-box">
+      <h2>Me!</h2>
+      <img src="ARMIELpic.jpg" alt="My Picture">
+    </div>
+  </section>
+
+  <section class="container interests">
+    <div class="box">
+      <h2>My Likes</h2>
+      <p>Poco, Ice Cream, Friends</p>
+    </div>
+    <div class="box">
+      <h2>My Dislikes</h2>
+      <p>Carrots, Smelly Feet, Mushrooms</p>
+    </div>
+  </section>
+</body>
+</html>
